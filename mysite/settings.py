@@ -25,7 +25,9 @@ SECRET_KEY = 'h%v5@)^zlraac8xk&9utbr++6p*q1byhomjqa$l_)+m6=dhsw4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['maxondevil.pythonanywhere.com', ]
+ALLOWED_HOSTS = ['maxondevil.pythonanywhere.com',
+                 '127.0.0.1',
+                 ]
 
 
 # Application definition
